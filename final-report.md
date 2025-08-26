@@ -1,37 +1,47 @@
-# Music Blocks v4 Project Builder Integration
+<div align="center">
+    <h1 align="center">
+        Open Technologies Alliance - Gfoss |  MyUni
+    </h1>
+    <h2 align="center">
+        Final Work Report for the Google Summer of Code 2025 under <span style="color: #f0970a;"> Open Technologies Alliance - Gfoss </span> for the <span style="color: #c47b06;"> MyUni </span> project
+    </h2>
+    <p align="center">
+        <img src="./assets/report-banner.jpeg" />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </p>
+    <h2> Contributor Info. </h2>
+    <div container>
+        <table>
+            <tr>
+                <td width="950px">
+                    <h3>&#8226; Name - Adil Kadival </h3> 
+                    <h3>&#8226; Organization - <a href="https://github.com/open-source-uom" target="_blank">Open Source Uom (Gfoss)</a> </h3> 
+                    <h3>&#8226; Email - <a href="mailto:adilkadivala560@gmail.com" target="_blank">adilkadivala560@gmail.com</a> </h3> 
+                    <h3>&#8226; GitHub - <a href="https://github.com/adilkadivala" target="_blank">Adil kadivala</a></h3> 
+                    <h3>&#8226; Linkedin - <a href="https://www.linkedin.com/in/adilkadivala/" target="_blank">Adil kadival</a></h3> 
+                    <h3>&#8226; Twitter - <a href="https://x.com/adil_kadival">adil_kadival</a></h3>
+                </td>
+                <td>
+                <a href="https://github.com/karan-palan"><img src="./assets/profile.jpeg" height="250px" width="250px;" alt=""/></a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <h2> Mentors' Info. </h2>
+    <div container>
+        <table>
+                <tr >
+                    <td width="1220px">
+                    <h3>&#8226; Mentor - <a href="https://github.com/Tsalmas-Anastasios" target="_blank">Tsalmas Anastasios</a></h3>
+                    <h3>&#8226; Mentor - <a href="https://github.com/iosifidis" target="_blank">Efstathios Iosifidis</a></h3>
+                    <h3>&#8226; Assisting Mentor - <a href="https://github.com/dimsparagis0210" target="_blank">Dimitris Sparagis</a></h3>
+                    </td>
+                </tr>
+        </table>
+    </div>
+    <br />
 
-## Final Work Report for the Google Summer of Code 2024 under `Sugar Labs` for the Music Blocks v4 project
 
-<p align="center">
-<img src="https://github.com/user-attachments/assets/8d30793e-af8c-4ea3-af39-914392df416e" height="300px">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</p>
+    
 
-## Contributor Info
-
-<div container>
-<table>
-
-<tr>
-<td width="600px">
-&#8226; Name - Adil Kadival <br />
-&#8226; Organization - <a href="https://github.com/open-source-uom" target="_blank">Open Source Uom (Gfoss)</a><br />
-&#8226; Email - <a href="mailto:adilkadivala560@gmail.com" target="_blank">adilkadivala560@gmail.com</a><br />
-&#8226; GitHub - <a href="https://github.com/adilkadivala" target="_blank">Adil kadivala</a><br />
-&#8226; Linkedin - <a href="https://www.linkedin.com/in/adilkadivala/" target="_blank">Adil kadival</a><br />
-&#8226; Twitter - <a href="https://x.com/adil_kadival">adil_kadival</a><br />
-</td>
-<td>
-<a href="https://github.com/karan-palan"><img src="https://pbs.twimg.com/profile_images/1865732993819488256/puVpvwsq_400x400.jpg" height="250px" width="250px;" alt=""/></a>
-</td>
-</tr>
-</table>
 </div>
-
-## Mentors' Info
-
-- **Mentor:** [Tsalmas Anastasios](https://github.com/Tsalmas-Anastasios)
-- **Mentor:** [Efstathios Iosifidis](https://github.com/iosifidis)
-- **Assisting Mentor:** [Dimitris Sparagis](https://github.com/dimsparagis0210)
-
-<br />
