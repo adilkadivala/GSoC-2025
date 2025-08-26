@@ -13,31 +13,25 @@
     <div container>
         <table>
             <tr>
-                <td width="950px">
-                    <h3>&#8226; Name - Adil Kadival </h3> 
-                    <h3>&#8226; Organization - <a href="https://github.com/open-source-uom" target="_blank">Open Source Uom (Gfoss)</a> </h3> 
-                    <h3>&#8226; Email - <a href="mailto:adilkadivala560@gmail.com" target="_blank">adilkadivala560@gmail.com</a> </h3> 
-                    <h3>&#8226; GitHub - <a href="https://github.com/adilkadivala" target="_blank">Adil kadivala</a></h3> 
-                    <h3>&#8226; Linkedin - <a href="https://www.linkedin.com/in/adilkadivala/" target="_blank">Adil kadival</a></h3> 
-                    <h3>&#8226; Twitter - <a href="https://x.com/adil_kadival">adil_kadival</a></h3>
+                <td width="50%">
+                    <h5>&#8226; Name - Adil Kadival </h5> 
+                    <h5>&#8226; Organization - <a href="https://github.com/open-source-uom" target="_blank">Open Source Uom (Gfoss)</a> </h5> 
+                    <h5>&#8226; Email - <a href="mailto:adilkadivala560@gmail.com" target="_blank">adilkadivala560@gmail.com</a> </h5> 
+                    <h5>&#8226; GitHub - <a href="https://github.com/adilkadivala" target="_blank">Adil kadivala</a></h5> 
+                    <h5>&#8226; Linkedin - <a href="https://www.linkedin.com/in/adilkadivala/" target="_blank">Adil kadival</a></h5> 
+                    <h5>&#8226; Twitter - <a href="https://x.com/adil_kadival">adil_kadival</a></h5>
                 </td>
-                <td>
-                <a href="https://github.com/karan-palan"><img src="./assets/profile.jpeg" height="250px" width="250px;" alt=""/></a>
+                <td width="950px">
+                <a href="https://github.com/adilkadivala"><img src="./assets/profile.jpeg" height="250px" width="250px;" alt=""/></a>
                 </td>
             </tr>
         </table>
     </div>
     <h2> Mentors' Info. </h2>
-    <div container>
-        <table>
-                <tr >
-                    <td width="1220px">
-                    <h3>&#8226; Mentor - <a href="https://github.com/Tsalmas-Anastasios" target="_blank">Tsalmas Anastasios</a></h3>
-                    <h3>&#8226; Mentor - <a href="https://github.com/iosifidis" target="_blank">Efstathios Iosifidis</a></h3>
-                    <h3>&#8226; Assisting Mentor - <a href="https://github.com/dimsparagis0210" target="_blank">Dimitris Sparagis</a></h3>
-                    </td>
-                </tr>
-        </table>
+    <div align="left">
+        <h5>&#8226; Mentor - <a href="https://github.com/Tsalmas-Anastasios" target="_blank">Tsalmas Anastasios</a></h5>
+        <h5>&#8226; Mentor - <a href="https://github.com/iosifidis" target="_blank">Efstathios Iosifidis</a></h5>
+        <h5>&#8226; Assisting Mentor - <a href="https://github.com/dimsparagis0210" target="_blank">Dimitris Sparagis</a></h5
     </div>
     <br />
 
