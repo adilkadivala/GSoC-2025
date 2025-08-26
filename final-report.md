@@ -16,7 +16,7 @@
                 <td width="50%">
                     <h5>&#8226; Name - Adil Kadival </h5> 
                     <h5>&#8226; Organization - <a href="https://github.com/open-source-uom" target="_blank">Open Source UoM (GFOSS)</a> </h5> 
-                    <h5>&#8226; Email - <a href="mailto:adilkadivala560@gmail.com" target="_blank">adilkadivala560@gmail.com</a> </h5> 
+                    <h5>&#8226; Email - <a href="https://mailto:adilkadivala560@gmail.com" target="_blank">adilkadivala560@gmail.com</a> </h5> 
                     <h5>&#8226; GitHub - <a href="https://github.com/adilkadivala" target="_blank">Adil Kadivala</a></h5> 
                     <h5>&#8226; LinkedIn - <a href="https://www.linkedin.com/in/adilkadivala" target="_blank">Adil Kadival</a></h5> 
                     <h5>&#8226; Twitter - <a href="https://x.com/adil_kadival" target="_blank">adil_kadival</a></h5>
@@ -38,7 +38,7 @@
 
 <h2 align="center"> Project Details </h2>
 
-The **MyUni** project is *a complete university student and faculty management platform*. It is a unified, open-source solution designed to modernize and extend the current MyUoM app for Greek universities.  
+The **MyUni** project is *a complete university student and faculty management platform*. It is a unified, centralized solution designed to modernize and extend the current MyUoM app for Greek universities.  
 
 During GSoC 2025, I worked on three repositories, all fully responsive and supporting both light and dark themes:
 
