@@ -123,4 +123,4 @@ Going forward, I plan to continue contributing to MyUni by:
 - Supporting other universities in adopting and customizing the platform.  
 - Mentoring future contributors who wish to participate in GSoC.  
 
-This journey has been a milestone in my open-source career, and I look forward to helping MyUni grow into a truly national platform for Greek universities.  
+This journey has been a milestone in my open-source career, **and I look forward to be in community and continue my contributing to Improve MyUni**.  
