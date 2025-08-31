@@ -96,6 +96,8 @@ At the initial stage, I designed layouts for **myuni-frontend-student** and **my
 ### **2. Developing Frontend for Student and Admin**
 After finalizing designs and mentor feedback, I started developing the portals using **React (Vite) with TypeScript**, **ShadCN**, and **Tailwind CSS**. I followed best practices for reusability and structure.  
 
+- **CMS**: build a CMS using TIPTAP editor in admin dashbaord,   
+- **Web-Builder**:Developed A Drag and Drop Website-builder page using puck Editor.  
 - **Error Boundary**: Initially, if one component broke, it crashed the whole app. I solved this by implementing error boundaries so that only the faulty component fails while the rest of the app continues working.  
 
 ---
