@@ -7,18 +7,17 @@
     </h2>
     <p align="center">
         <img src="./assets/report-banner.jpeg" />
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     </p>
     <h2> Contributor Info </h2>
     <div container>
         <table>
             <tr>
                 <td width="50%">
-                    <h5>&#8226; Name - Adil Kadival </h5> 
-                    <h5>&#8226; Organization - <a href="https://github.com/open-source-uom" target="_blank">Open Source UoM (GFOSS)</a> </h5> 
-                    <h5>&#8226; Email - <a href="https://mailto:adilkadivala560@gmail.com" target="_blank">adilkadivala560@gmail.com</a> </h5> 
-                    <h5>&#8226; GitHub - <a href="https://github.com/adilkadivala" target="_blank">Adil Kadivala</a></h5> 
-                    <h5>&#8226; LinkedIn - <a href="https://www.linkedin.com/in/adilkadivala" target="_blank">Adil Kadival</a></h5> 
+                    <h5>&#8226; Name - Adil Kadival </h5>
+                    <h5>&#8226; Organization - <a href="https://github.com/open-source-uom" target="_blank">Open Source UoM (GFOSS)</a> </h5>
+                    <h5>&#8226; Email - <a href="https://mailto:adilkadivala560@gmail.com" target="_blank">adilkadivala560@gmail.com</a> </h5>
+                    <h5>&#8226; GitHub - <a href="https://github.com/adilkadivala" target="_blank">Adil Kadivala</a></h5>
+                    <h5>&#8226; LinkedIn - <a href="https://www.linkedin.com/in/adilkadivala" target="_blank">Adil Kadival</a></h5>
                     <h5>&#8226; Twitter - <a href="https://x.com/adil_kadival" target="_blank">adil_kadival</a></h5>
                 </td>
                 <td width="950px">
@@ -36,93 +35,135 @@
     <br />
 </div>
 
-<h2 align="center"> Project Details </h2>
+# Table of Contents
 
-The **MyUni** project is *a complete university student and faculty management platform*. It is a unified, centralized solution designed to modernize and extend the current MyUoM app for Greek universities.  
+1. [Project Overview](#project-overview)
+2. [Repositories](#repositories)
+3. [Work Summary](#work-summary)
 
-During GSoC 2025, I worked on three repositories, all fully responsive and supporting both light and dark themes:
+   * [1. Designing UI/UX](#1-designing-uiux)
+   * [2. Frontend Development](#2-frontend-development)
+   * [3. Backend Development](#3-backend-development)
+   * [4. DevOps & Deployment](#4-devops--deployment)
+4. [Challenges & Learnings](#challenges--learnings)
+5. [Conclusion](#conclusion)
 
-- **myuni-backend**
-- **myuni-frontend-admin**
-- **myuni-frontend-student**
+---
 
-### myuni-backend
-The backend repository contains all server-side logic for both the student and admin portals. I implemented a robust authentication system, scalable backend architecture, and real-time data synchronization using modern technologies such as **Express.js, TypeScript, Prisma ORM, Redis, and Email services**.  
+## Project Overview
 
-### myuni-frontend-admin
-The admin portal enables administrators to manage academic information, announcements, and events. Admins can view and manage all users by role and easily control the CMS through a clean UI.  
+The **MyUni** project is a **comprehensive student and faculty management platform** designed to modernize the existing MyUoM app for Greek universities. It aims to deliver a unified solution that supports students, faculty, and administrators through responsive design, modern tooling, and extensible features.
 
-### myuni-frontend-student
-The student portal allows students to view their academic information, announcements, and events. Additionally, it provides a **drag-and-drop website builder** that empowers students to create personalized websites with minimal effort.  
+During **Google Summer of Code 2025**, I contributed to **end-to-end development** across design, frontend, backend, CI/CD, and deployment. My contributions ensured that the MyUni platform is scalable, user-friendly, and production-ready.
 
-<br />
+---
 
-## GSoC Project Page
-- [GSoC 2025 with Open Technologies Alliance - GFOSS - MyUni](https://summerofcode.withgoogle.com/programs/2025/projects/tz6ymx0o)
+## Repositories
 
-## GSoC Project Proposal
-- [Project Proposal](https://github.com/adilkadivala/GSoC-2025/blob/main/proposal.pdf)
+I actively worked on three repositories, all supporting light/dark themes and responsive layouts:
 
-## Project Repository | Organization Page
-- [Open Source UoM](https://github.com/open-source-uom)
+* **myuni-backend** – Server-side logic, APIs, authentication, caching, and email services.
+* **myuni-frontend-student** – Student portal with academic details, announcements, and a drag-and-drop website builder.
+* **myuni-frontend-admin** – Admin portal with CMS, user management, and event control.
 
-## GSoC Blogs
-- [My GSoC journey has started](https://dub.sh/midterm-end)  
-- [From Dreamer to Contributor](https://dub.sh/dreamTocontribut)  
-- [GSoC Midterm](https://dub.sh/gsoc-midterm)  
-- [GSoC Midterm-End](https://dub.sh/midterm-end)  
-
-<br />
+---
 
 ## Work Summary
 
-### **1. Creating the Figma Designs**
-At the initial stage, I designed layouts for **myuni-frontend-student** and **myuni-frontend-admin**. I focused on modern, accessible, and responsive designs for all devices.  
+### 1. Designing UI/UX
 
-**Auth Pages**
+At the start, I created layouts in **Figma** for both student and admin portals. The focus was on:
+
+* Modern, clean, and minimal design.
+* Accessibility standards.
+* Fully responsive layouts for desktop, tablet, and mobile.
+* Support for light and dark themes.
+
+**Examples**:
+
+* **Auth Pages**
 
 <img src="./assets/auth.png" />
 
-**Student Portal Layout**
+* **Student Portal Layout**
 
 <img src="./assets/student-portal.png" width="900px"/>
 
-**Admin Portal Layout**
+* **Admin Portal Layout**
 
 <img src="./assets/admin-portal.png" width="900px"/>
 
 ---
 
-### **2. Developing Frontend for Student and Admin**
-After finalizing designs and mentor feedback, I started developing the portals using **React (Vite) with TypeScript**, **ShadCN**, and **Tailwind CSS**. I followed best practices for reusability and structure.  
+### 2. Frontend Development
 
-- **CMS**: build a CMS using TIPTAP editor in admin dashbaord,   
-- **Web-Builder**:Developed A Drag and Drop Website-builder page using puck Editor.  
-- **Error Boundary**: Initially, if one component broke, it crashed the whole app. I solved this by implementing error boundaries so that only the faulty component fails while the rest of the app continues working.  
+After design approval, I built the portals with **React (Vite) + TypeScript**, **ShadCN**, and **Tailwind CSS**. Key contributions include:
+
+* **CMS (Admin):** Built using **Tiptap editor**, enabling admins to create and manage rich content.
+* **Website Builder (Student):** Implemented a drag-and-drop page builder with **Puck Editor**, including ready-to-use responsive components.
+* **Error Boundaries:** Prevented full app crashes by isolating component-level errors.
+* **Reusable Components:** Followed best practices for maintainability and scalability.
 
 ---
 
-### **3. Developing Backend for Student and Admin**
-Once the frontend was functional, I moved to backend development. This was my first time working with an **OOP-based project template**, which was challenging at first but became a great learning experience thanks to my mentors’ guidance.  
+### 3. Backend Development
 
-The backend was built with **Express.js, TypeScript, PostgreSQL, and Prisma ORM**, with **Redis for caching**. I tested all APIs using Postman and successfully integrated them with the frontend.  
+The backend was implemented with **Express.js, TypeScript, Prisma ORM, PostgreSQL**, and **Redis** for caching. Major contributions include:
 
-Additional backend work included:  
-- **Implementing CI/CD pipelines**  
-- **Building Docker images**  
-- **Deploying on AWS EC2**  
+* **Authentication system** with secure sessions.
+* **Email service integration** for OTP and verification.
+* **API development** tested with Postman and integrated with the frontend.
+* **Scalable architecture** using an OOP-based project template.
 
+This was my first time adapting to an OOP backend template, which proved challenging but greatly enhanced my skills.
 
+---
 
-## **Conclusion**
-Overall, my work on the MyUni project during GSoC 2025 included **design, development, testing, deployment, and documentation**. I began with Figma designs, implemented both student and admin portals, built and optimized backend services, and ensured smooth integration across the system.  
+### 4. DevOps & Deployment
 
-This experience strengthened my technical expertise in full-stack development, DevOps practices, and collaborative open-source workflows. It also gave me a deeper understanding of designing scalable systems that can serve diverse institutions.  
+To ensure a production-ready system, I focused on DevOps and hosting:
 
-Going forward, I plan to continue contributing to MyUni by:  
-- Expanding features like analytics and advanced personalization.  
-- Improving test coverage and documentation for easier onboarding.  
-- Supporting other universities in adopting and customizing the platform.  
-- Mentoring future contributors who wish to participate in GSoC.  
+* **CI/CD Pipelines:** Automated build, test, and deployment workflows using GitHub Actions.
+* **Dockerization:** Built Docker images for both frontend and backend services.
+* **AWS Deployment:** Hosted the complete application stack on **AWS EC2** for reliability and scalability.
 
-This journey has been a milestone in my open-source career, **and I look forward to be in community and continue my contributing to Improve MyUni**.  
+---
+
+## Challenges & Learnings
+
+* **Challenge:** Adapting to OOP backend architecture.
+
+  * **Learning:** Improved understanding of structured code, design patterns, and modularization.
+
+* **Challenge:** Ensuring full responsiveness and accessibility.
+
+  * **Learning:** Strengthened CSS and responsive design expertise.
+
+* **Challenge:** Implementing CI/CD pipelines and Docker orchestration.
+
+  * **Learning:** Gained real-world DevOps skills for continuous integration and delivery.
+
+---
+
+## Conclusion
+
+My GSoC 2025 journey with **Open Technologies Alliance - GFOSS** has been transformative. I contributed across:
+
+* Designing interfaces with Figma.
+* Developing student and admin portals with React, TypeScript, and Tailwind.
+* Building backend services with Express.js, Prisma, and PostgreSQL.
+* Setting up Dockerized deployments and automated CI/CD pipelines.
+* Hosting the system on AWS for production-readiness.
+
+This experience strengthened my skills in **full-stack development, scalable architectures, DevOps, and open-source collaboration**.
+
+### Looking Forward
+
+I plan to continue contributing to MyUni by:
+
+* Expanding features like analytics and advanced personalization.
+* Improving test coverage and developer documentation.
+* Supporting wider university adoption.
+* Mentoring future contributors who join GSoC.
+
+This project marks a milestone in my open-source career, and I am excited to remain part of the community and contribute further. Love you Open-Sourec and Thanks to `Open Technology (GFOSS)` for giving me this Oppertunity.
