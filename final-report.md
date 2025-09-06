@@ -62,9 +62,9 @@ During **Google Summer of Code 2025**, I contributed to **end-to-end development
 
 I actively worked on three repositories, all supporting light/dark themes and responsive layouts:
 
-* **myuni-backend** – Server-side logic, APIs, authentication, caching, and email services.
-* **myuni-frontend-student** – Student portal with academic details, announcements, and a drag-and-drop website builder.
-* **myuni-frontend-admin** – Admin portal with CMS, user management, and event control.
+* **[myuni-backend](https://github.com/open-source-uom/myUni-backend)** – Server-side logic, APIs, authentication, caching, and email services.
+* **[myuni-frontend-student](https://github.com/open-source-uom/myUni-frontend-students)** – Student portal with academic details, announcements, and a drag-and-drop website builder.
+* **[myuni-frontend-admin](https://github.com/open-source-uom/myUni-frontend-admin)** – Admin portal with CMS, user management, and event control.
 
 ---
 
